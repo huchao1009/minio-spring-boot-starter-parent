@@ -1,0 +1,7 @@
+minio:
+  url: http://files.pyeep.cn:81
+  access-key: Y5WR4F8DHTWCP0AAYROA
+  secret-key: Vls6qFPytZ+6UL90XUVjsgE+6qkrFwoFObjmJCTW
+  endpoint:
+    enable: true
+    name: minio

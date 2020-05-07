@@ -1,0 +1,9 @@
+{
+  "groups": [
+    {
+      "name": "minio",
+      "type": "com.opensource.minio.autoconfigure.MinioProperties",
+      "sourceType": "com.opensource.minio.autoconfigure.MinioProperties"
+    }
+  ]
+}

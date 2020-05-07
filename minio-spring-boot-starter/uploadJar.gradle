@@ -1,0 +1,14 @@
+ext.repositoryUrl = 'https://repo.rdc.aliyun.com/repository/110185-snapshot-MdEGLe/'
+boolean isReleases = version.indexOf("-SNAPSHOT") > -1 ? false : true;
+if (isReleases == true) {
+    repositoryUrl = 'https://repo.rdc.aliyun.com/repository/110185-release-hypnmr/'
+}
+
+// 发布到中央仓库
+uploadArchives {
+    repositories.mavenDeployer {
+        repository(url: repositoryUrl) {
+            authentication(userName: "EQqfFl", password: "XPO5P3PMty")
+        }
+    }
+}

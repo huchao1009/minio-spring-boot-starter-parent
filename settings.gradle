@@ -1,0 +1,5 @@
+/* 多模块构建 */
+/* 父模块名称 */
+rootProject.name = 'minio-springboot-starter-parent'
+/* 引入子模块 */
+include 'minio-spring-boot-autoconfigure','minio-spring-boot-starter'
